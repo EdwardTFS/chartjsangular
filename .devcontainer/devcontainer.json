@@ -4,5 +4,10 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
+	"portsAttributes": {
+		"4200": {
+			"label": "ngserveport"
+		}
+	}
  // "remoteUser": "node"
 }
